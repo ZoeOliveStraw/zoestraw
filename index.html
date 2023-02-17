@@ -11,41 +11,60 @@
     <link rel="stylesheet" href="./Content/app.css">
 </head>
 <body>
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Zoe Straw</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="art.html">My Art</a>
-              </li>
-            </ul>
+  <div id="page">
+    <header id="header"></header>
+
+    <div>
+      
+      <div class="jumbotron">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <img src="/art/Zoe selfie 2.jpg" class="img-thumbnail" alt="...">
+            </div>
+            <div class="col-9" id="cards">
+              <h1 class="display-3">Zoe Straw - VR Developer</h1>
+                <h3>This is a template for a simple marketing or informational website.
+                It includes a large callout called a jumbotron and three
+                supporting pieces of content. Use it as a starting 
+                point to create something more unique.</h3>
+            </div>
           </div>
         </div>
-      </nav>
-    </header>
 
-    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column text-center has-bg-img w-50">
-      <img src="./art/Zoe selfie.jpg" class="img-thumbnail mx-auto" alt="This is a picture of me" style="width:10%">
-      <h1 class="cover-heading">Zoe Straw - VR Developer</h1>
+      </div>
 
-      <p class="lead overflow-auto">Hiya! I'm Zoe Straw, a programmer and 3D artist with a passion for VR.
-        I'm also a hobbyist game developer specializing in Unity. I have a passion for games and game design,
-        as well as experiencing what virtual reality is capable of. I'm excited to have a career in VR.
-        
-      </p>
-      <h4 class="cover-heading">Languages</h4>
-      <p class="lead">C#, Python, Java, Javascript, C++, PHP, HTML</p>
-      <h4 class="cover-heading">Skills</h4>
-      <p class="lead">Unity 3D, Blender, Bootstrap, Node.js, React, jquery, WPF</p>
+      <div class="container">
+        <!-- Example row of columns -->
+        <div class="row my-5">
+          <div class="col-md-4" id="cards">
+            <h2>My Experience</h2>
+            <h5><b>I've been working during my studies as a developer in multiple programming languages and game engines on a variety of projects.</b></h5>
+            <p><a class="btn btn-success" href="/experience.html" role="button">View details »</a></p>
+          </div>
+          <div class="col-md-4" id="cards">
+            <h2>Skills</h2>
+            <h5><b>I'm a Unity and Unreal developer with paid experience writing game logic in both C# and C++. For a more detailed breakdown of
+              my skills and aptitudes, please click here for more!
+            </b> </h5>
+            <p><a class="btn btn-success" href="#" role="button">View details »</a></p>
+          </div>
+          <div class="col-md-4" id="cards">
+            <h2>Contact me!</h2>
+            <h5><b>If I sound like a good fit for your project or organization, please don't hesitate to  reach out to me. I'm always looking 
+              to expand my horizons and embrace new and exciting opportunities.
+            </b></h5>
+            <p><a class="btn btn-success" href="#" role="button">View details »</a></p>
+          </div>
+        </div>
+
+        <hr>
+
+      </div>
     </div>
+  </div>
+
+    <footer id="footer"></footer>
 
     <!--Scripting section-->
     <script src="./node_modules/jquery/dist/jquery.min.js"></script>
